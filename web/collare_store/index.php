@@ -10,7 +10,6 @@
 	<body>
 		<h1>COLL&Amacr;RE</h1>
 		<div id="mainPanel">
-			<a href="items.php"><p id="mainText">LOOK<br/>MORE<br/>ITEMS</p></a>
 			<img src="indexPics/girl1.jpg" alt="Girl 1" class="picMain">
 			<div class="container">
 				<img src="indexPics/img1.jpg" alt="Img 1" class="picMain">
