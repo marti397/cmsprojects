@@ -51,6 +51,46 @@ a.pageHeader:link, a.pageHeader:visited{
 #mainPanel{
     width: 900px;
 }
+.picMain{
+    width: 33%;
+    float: left;
+    border: none;
+    margin-bottom: 10px;
+    padding-right: 2px;
+}
+#mainText{
+    padding-top: 15px;
+    font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight:normal;
+	letter-spacing: 4px;
+}
+#mainText br{
+    margin-bottom: 12px;
+}
+.container {
+    position: relative;
+}
+.center {
+    position: absolute;
+    top: 100px;
+    left: 43%;
+    height: 140px;
+    width: 15%;
+    text-align: center;
+    background: rgba(255, 77, 77, 0.6);
+}
+.center a{
+    color: white;
+    text-decoration: none;
+}
+.center:hover{
+    background: rgba(128,128,128 ,0.8);
+    color: #ff4d4d;
+}
+.center a:link, .center a:visited{
+    text-decoration: none;
+    color:white;
+}
 .sorter{
     width:249px;
     height: 150px;
