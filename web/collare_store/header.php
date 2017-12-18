@@ -1,0 +1,1 @@
+<a class="pageHeader" href="index.php"><h1>COLL&Amacr;RE</h1></a>

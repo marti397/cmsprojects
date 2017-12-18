@@ -1,0 +1,184 @@
+body{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+    
+}
+h1{
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight:normal;
+	letter-spacing: 4px;
+	text-align: center;
+    border-bottom: solid 1px black;
+}
+a.pageHeader:link, a.pageHeader:visited{
+    text-decoration: none;
+    color: black;
+}
+#siteNav ul{
+	list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align:center;
+    font-size:14px;
+    font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    letter-spacing:2px;
+}
+#siteNav li{
+	display: inline;
+	margin-left:40px;
+	margin-right:40px;
+}
+#siteNav a:link{
+	text-decoration:none;
+	color:#000000;
+}
+#siteNav a:visited{
+	color:#000000;
+}
+#siteNav a:hover{
+	color:#ff4d4d;
+	border-bottom: 3px solid;
+}
+#siteNav a:active{
+	color:#ff4d4d;
+	border-bottom: 3px solid;
+}
+#siteNav .youarehere a{
+	color:#ff4d4d;
+	border-bottom: 3px solid;   
+}
+#mainPanel{
+    width: 900px;
+}
+.sorter{
+    width:249px;
+    height: 150px;
+    background-color:#FFFFFF;
+    float:left;
+    margin:35px 25px 20px 25px;
+    /**border:solid .1px #ff4d4d;**/
+}
+.priceSort{
+    font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    letter-spacing:2px;
+    background-color:#ff4d4d;
+    color: #FFFFFF;
+    width:150px;
+    height: 20px;
+    text-align: center;
+    padding-top:3px;
+    margin-left: 65px;
+    margin-top: 10px;
+    float: left;
+}
+.priceSort:hover{cursor: pointer;}
+.colorSorter{
+    width:25px;
+    height:25px;
+    background-color:black;
+    margin:15px 5px 5px 5px;
+    float:left;
+}
+.colorSorter:hover{cursor: pointer;}
+#colorFilter1{background-color:#FF4500;}
+#colorFilter2{background-color:#00BFFF;}
+#colorFilter3{background-color:#008000;}
+#colorFilter4{background-color:#FFF5EE;}
+#colorFilter5{background-color:#FF69B4;}
+#colorFilter6{background-color:#ADFF2F;}
+#colorFilter7{background-color:#000000;}
+#colorFilter8{background-color:#D3D3D3;}
+#colorFilter9{background-color:#8B4513;}
+#colorFilter10{background-color:#FFA500;}
+#colorFilter11{background-color:#FFFF00;}
+#colorFilter12{background-color:#BA55D3;}
+#colorFilter13{background-color:#0000FF;}
+#colorFilter14{background-color:#F08080;}
+#showAll{
+    font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    letter-spacing:2px;
+    background-color:#ff4d4d;
+    color: #FFFFFF;
+    width:150px;
+    height: 20px;
+    text-align: center;
+    padding-top:3px;
+    margin-left: 55px;
+}
+.Pictures{
+    float:left;
+    margin:20px 25px 20px 25px;
+    width: 250px;
+}
+img{
+    border: solid 1px #ff4d4d;
+}
+#detailedView, #buy, #price{
+    width:33%;
+    height:40px;
+    background-color:#ff4d4d;
+    float: left;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing:2px;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin-top:0px;
+    margin-left:.1px;
+    padding-top:15px;
+}
+#detailedView, #buy{
+    border-right:solid 1px #FFFFFF;
+}
+#detailedView:hover{cursor: pointer;}
+#buy:hover{cursor: pointer;}
+/**Footer**/
+#lowerBlock{
+	height:150px;
+	width:100%;
+	background-color:gray;
+    float: left;
+}
+#block1, #block2, #block3{
+	width:33%;
+	float:left;
+	color:white;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size:12px;
+	letter-spacing: 2px;
+}
+#block1,#block2{
+	height:150px;
+	border-right: 2px dotted white;
+}
+#block1 p{
+	margin-left:10px;
+	margin-top:20px;
+}
+#block2 p{
+	margin-left:10px;
+	margin-top:5px;
+	margin-bottom:8px;
+}
+.textBlock2{
+	letter-spacing:1px;
+	padding-left:10px;
+	font-size:12px;
+	padding-top:2px;
+}
+#block3 p{
+	margin-left:10px;
+}
+.socialIcons{
+	width:30px;
+	height:30px;
+	margin:10px;
+    border: none;
+}
+a.help:link, a.help:visited{
+    text-decoration: none;
+    color:white;
+}
+a.help:hover{
+    text-decoration: underline;
+}

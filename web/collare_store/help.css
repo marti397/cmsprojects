@@ -1,0 +1,76 @@
+body{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+    font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    
+}
+h1{
+    color: black;
+	font-weight:normal;
+	letter-spacing: 4px;
+	text-align: center;
+    border-bottom: solid 1px black;
+}
+a:link, a:visited{
+    text-decoration: none;
+}
+#helpTitle{
+    height:60px;
+    text-align: center;
+    padding-top:20px;  
+    background-color: gray;
+    color:white;
+    font-size:30px;
+    font-weight: bold;
+    letter-spacing:1px;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+#goBack{
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;  
+    background-color: #ff4d4d;
+    color:white;
+    font-size:30px;
+    font-weight: bold;
+    letter-spacing:1px;
+    float:right;    
+}
+#goBack:hover{
+    color:black;
+    background-color:#ff4d4d;
+}
+h3{
+    letter-spacing:1px;
+    border-top:1px solid black;
+}
+p,input{
+    margin-left: 40px;
+}
+p{
+    margin-bottom: 3px;
+    margin-top: 30px;
+}
+p, span{
+    letter-spacing:1px;
+}
+.question{
+    font-style: italic;
+}
+.answer{
+    margin-left: 65px;
+}
+#sumbit{
+    background-color: gray;
+    color:white;
+    letter-spacing:1px;
+    font-size: 18px;
+    width: 135px;
+    height: 60px;
+    border: none;
+}
+#sumbit:hover{
+    cursor: pointer;
+}
